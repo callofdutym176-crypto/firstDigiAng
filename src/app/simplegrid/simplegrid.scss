@@ -1,0 +1,38 @@
+.pro-grid {
+  --ag-background-color: white;
+  --ag-header-background-color: #f8fafc;
+  --ag-header-foreground-color: #0f172a;
+
+  --ag-foreground-color: #0f172a;
+  --ag-border-color: #e5e7eb;
+
+  --ag-row-hover-color: rgba(37, 99, 235, 0.06);
+  --ag-selected-row-background-color: rgba(37, 99, 235, 0.12);
+
+  border-radius: 14px;
+  box-shadow: var(--shadow-soft);
+}
+.grid-center {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.naruto-grid {
+  width: 85%;
+  height: 520px;
+  border-radius: 14px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+}
+
+.center-header .ag-header-cell-label {
+  display: flex !important;
+  justify-content: center !important;
+  width: 100%;
+}
+
+.center-header .ag-header-cell-text {
+  width: 100%;
+  text-align: center !important;
+}

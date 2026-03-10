@@ -1,0 +1,22 @@
+mat-tab-group {
+  margin-top: 2rem;
+  background: var(--surface);
+  border-radius: 14px;
+  padding: 1rem;
+  box-shadow: var(--shadow-soft);
+}
+
+.mat-mdc-tab-label {
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+.mat-mdc-tab-label-active {
+  color: var(--accent) !important;
+}
+
+.mat-mdc-ink-bar {
+  background: var(--accent);
+  height: 3px;
+  border-radius: 2px;
+}

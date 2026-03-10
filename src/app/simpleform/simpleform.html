@@ -1,0 +1,23 @@
+<form [formGroup]="simpleForm" (ngSubmit)="onSubmit()">
+
+    <label>Name:</label>
+    <input type="text" formControlName="name" placeholder="Enter Your Name">
+    @if(simpleForm.get('name')?.invalid && simpleForm.get('name')?.touched){
+    <span>Invalid Name</span>
+    }
+
+    <label>Email</label>
+    <input type="email" formControlName="email" placeholder="Enter Your Email">
+    @if(simpleForm.get('email')?.invalid && simpleForm.get('email')?.touched){
+    <span>Invalid Email</span>
+    }
+
+    <label>PhoneNumber</label>
+    <input type="text" formControlName="phnNum" placeholder="Enter Your Phone Number">
+    @if(simpleForm.get('phnNum')?.invalid && simpleForm.get('phnNum')?.touched){
+    <span>Invalid Phone Number</span>
+    }
+    <button type="submit" [disabled]="simpleForm.invalid">
+        {{ isEditMode ? 'Update' : 'Submit' }}
+    </button>
+</form>
