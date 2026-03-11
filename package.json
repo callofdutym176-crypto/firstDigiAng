@@ -8,41 +8,28 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
-  "prettier": {
-    "printWidth": 100,
-    "singleQuote": true,
-    "overrides": [
-      {
-        "files": "*.html",
-        "options": {
-          "parser": "angular"
-        }
-      }
-    ]
-  },
   "private": true,
-  "packageManager": "npm@11.6.2",
   "dependencies": {
-    "@angular/cdk": "~21.1.1",
-    "@angular/common": "^21.0.0",
-    "@angular/compiler": "^21.0.0",
-    "@angular/core": "^21.0.0",
-    "@angular/forms": "^21.0.0",
-    "@angular/material": "~21.1.1",
-    "@angular/platform-browser": "^21.0.0",
-    "@angular/router": "^21.0.0",
-    "ag-grid-angular": "^35.0.1",
-    "ag-grid-community": "^35.0.1",
-    "rxjs": "~7.8.0",
-    "tslib": "^2.3.0"
+    "@angular/animations": "~14.2.0",
+    "@angular/cdk": "~14.2.0",
+    "@angular/common": "~14.2.0",
+    "@angular/compiler": "~14.2.0",
+    "@angular/core": "~14.2.0",
+    "@angular/forms": "~14.2.0",
+    "@angular/material": "~14.2.0",
+    "@angular/platform-browser": "~14.2.0",
+    "@angular/platform-browser-dynamic": "~14.2.0",
+    "@angular/router": "~14.2.0",
+    "ag-grid-angular": "^28.2.1",
+    "ag-grid-community": "^28.2.1",
+    "rxjs": "~7.5.0",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.11.4"
   },
   "devDependencies": {
-    "@angular/build": "^21.0.2",
-    "@angular/cli": "^21.0.2",
-    "@angular/compiler-cli": "^21.0.0",
-    "@angular/material": "^21.1.1",
-    "jsdom": "^27.1.0",
-    "typescript": "~5.9.2",
-    "vitest": "^4.0.8"
+    "@angular-devkit/build-angular": "~14.2.0",
+    "@angular/cli": "~14.2.0",
+    "@angular/compiler-cli": "~14.2.0",
+    "typescript": "~4.7.4"
   }
 }
